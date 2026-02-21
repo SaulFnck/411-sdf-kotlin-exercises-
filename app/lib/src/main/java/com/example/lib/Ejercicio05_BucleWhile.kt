@@ -21,6 +21,8 @@ fun main() {
         // - reduce numero (numero / 10)
         while (numero > 0) {
             // Completa aqui
+            suma = suma + (numero % 10)
+            numero = numero / 10
         }
 
         println("Suma de digitos de $n: $suma")
