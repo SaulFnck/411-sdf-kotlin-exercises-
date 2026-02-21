@@ -22,7 +22,11 @@ fun main() {
             2 -> "Martes"
             3 -> "Miercoles"
             // TODO: Completa los dias restantes (4-7) y el else
-            else -> ""
+            4 -> "Jueves"
+            5 -> "Viernes"
+            6 -> "Sabado"
+            7 -> "Domingo"
+            else -> "Dia no valido"
         }
 
         println("$d -> $nombre")
