@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "Exercises"
 include(":app")
 include(":app:lib")
+include(":Poo")
